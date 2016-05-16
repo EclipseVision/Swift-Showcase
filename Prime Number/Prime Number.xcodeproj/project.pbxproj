@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB778401CD9A85900BBEC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7783F1CD9A85900BBEC1A /* AppDelegate.swift */; };
+		DAB778421CD9A85900BBEC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB778411CD9A85900BBEC1A /* ViewController.swift */; };
+		DAB778451CD9A85900BBEC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB778431CD9A85900BBEC1A /* Main.storyboard */; };
+		DAB778481CD9A85900BBEC1A /* Prime_Number.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB778461CD9A85900BBEC1A /* Prime_Number.xcdatamodeld */; };
+		DAB7784A1CD9A85900BBEC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB778491CD9A85900BBEC1A /* Assets.xcassets */; };
+		DAB7784D1CD9A85A00BBEC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB7784B1CD9A85A00BBEC1A /* LaunchScreen.storyboard */; };
+		DAB778581CD9A85A00BBEC1A /* Prime_NumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB778571CD9A85A00BBEC1A /* Prime_NumberTests.swift */; };
+		DAB778631CD9A85A00BBEC1A /* Prime_NumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB778621CD9A85A00BBEC1A /* Prime_NumberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB778541CD9A85A00BBEC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB778341CD9A85900BBEC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB7783B1CD9A85900BBEC1A;
+			remoteInfo = "Prime Number";
+		};
+		DAB7785F1CD9A85A00BBEC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB778341CD9A85900BBEC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB7783B1CD9A85900BBEC1A;
+			remoteInfo = "Prime Number";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB7783C1CD9A85900BBEC1A /* Prime Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prime Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB7783F1CD9A85900BBEC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB778411CD9A85900BBEC1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB778441CD9A85900BBEC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB778471CD9A85900BBEC1A /* Prime_Number.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prime_Number.xcdatamodel; sourceTree = "<group>"; };
+		DAB778491CD9A85900BBEC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB7784C1CD9A85A00BBEC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB7784E1CD9A85A00BBEC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB778531CD9A85A00BBEC1A /* Prime NumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime NumberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB778571CD9A85A00BBEC1A /* Prime_NumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_NumberTests.swift; sourceTree = "<group>"; };
+		DAB778591CD9A85A00BBEC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB7785E1CD9A85A00BBEC1A /* Prime NumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime NumberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB778621CD9A85A00BBEC1A /* Prime_NumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_NumberUITests.swift; sourceTree = "<group>"; };
+		DAB778641CD9A85A00BBEC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB778391CD9A85900BBEC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB778501CD9A85A00BBEC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7785B1CD9A85A00BBEC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB778331CD9A85900BBEC1A = {
+			isa = PBXGroup;
+			children = (
+				DAB7783E1CD9A85900BBEC1A /* Prime Number */,
+				DAB778561CD9A85A00BBEC1A /* Prime NumberTests */,
+				DAB778611CD9A85A00BBEC1A /* Prime NumberUITests */,
+				DAB7783D1CD9A85900BBEC1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB7783D1CD9A85900BBEC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7783C1CD9A85900BBEC1A /* Prime Number.app */,
+				DAB778531CD9A85A00BBEC1A /* Prime NumberTests.xctest */,
+				DAB7785E1CD9A85A00BBEC1A /* Prime NumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB7783E1CD9A85900BBEC1A /* Prime Number */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7783F1CD9A85900BBEC1A /* AppDelegate.swift */,
+				DAB778411CD9A85900BBEC1A /* ViewController.swift */,
+				DAB778431CD9A85900BBEC1A /* Main.storyboard */,
+				DAB778491CD9A85900BBEC1A /* Assets.xcassets */,
+				DAB7784B1CD9A85A00BBEC1A /* LaunchScreen.storyboard */,
+				DAB7784E1CD9A85A00BBEC1A /* Info.plist */,
+				DAB778461CD9A85900BBEC1A /* Prime_Number.xcdatamodeld */,
+			);
+			path = "Prime Number";
+			sourceTree = "<group>";
+		};
+		DAB778561CD9A85A00BBEC1A /* Prime NumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB778571CD9A85A00BBEC1A /* Prime_NumberTests.swift */,
+				DAB778591CD9A85A00BBEC1A /* Info.plist */,
+			);
+			path = "Prime NumberTests";
+			sourceTree = "<group>";
+		};
+		DAB778611CD9A85A00BBEC1A /* Prime NumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB778621CD9A85A00BBEC1A /* Prime_NumberUITests.swift */,
+				DAB778641CD9A85A00BBEC1A /* Info.plist */,
+			);
+			path = "Prime NumberUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB7783B1CD9A85900BBEC1A /* Prime Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB778671CD9A85A00BBEC1A /* Build configuration list for PBXNativeTarget "Prime Number" */;
+			buildPhases = (
+				DAB778381CD9A85900BBEC1A /* Sources */,
+				DAB778391CD9A85900BBEC1A /* Frameworks */,
+				DAB7783A1CD9A85900BBEC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime Number";
+			productName = "Prime Number";
+			productReference = DAB7783C1CD9A85900BBEC1A /* Prime Number.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB778521CD9A85A00BBEC1A /* Prime NumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB7786A1CD9A85A00BBEC1A /* Build configuration list for PBXNativeTarget "Prime NumberTests" */;
+			buildPhases = (
+				DAB7784F1CD9A85A00BBEC1A /* Sources */,
+				DAB778501CD9A85A00BBEC1A /* Frameworks */,
+				DAB778511CD9A85A00BBEC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB778551CD9A85A00BBEC1A /* PBXTargetDependency */,
+			);
+			name = "Prime NumberTests";
+			productName = "Prime NumberTests";
+			productReference = DAB778531CD9A85A00BBEC1A /* Prime NumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB7785D1CD9A85A00BBEC1A /* Prime NumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB7786D1CD9A85A00BBEC1A /* Build configuration list for PBXNativeTarget "Prime NumberUITests" */;
+			buildPhases = (
+				DAB7785A1CD9A85A00BBEC1A /* Sources */,
+				DAB7785B1CD9A85A00BBEC1A /* Frameworks */,
+				DAB7785C1CD9A85A00BBEC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB778601CD9A85A00BBEC1A /* PBXTargetDependency */,
+			);
+			name = "Prime NumberUITests";
+			productName = "Prime NumberUITests";
+			productReference = DAB7785E1CD9A85A00BBEC1A /* Prime NumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB778341CD9A85900BBEC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dustin Harle";
+				TargetAttributes = {
+					DAB7783B1CD9A85900BBEC1A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E2233CZ82E;
+					};
+					DAB778521CD9A85A00BBEC1A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E2233CZ82E;
+						TestTargetID = DAB7783B1CD9A85900BBEC1A;
+					};
+					DAB7785D1CD9A85A00BBEC1A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E2233CZ82E;
+						TestTargetID = DAB7783B1CD9A85900BBEC1A;
+					};
+				};
+			};
+			buildConfigurationList = DAB778371CD9A85900BBEC1A /* Build configuration list for PBXProject "Prime Number" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB778331CD9A85900BBEC1A;
+			productRefGroup = DAB7783D1CD9A85900BBEC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB7783B1CD9A85900BBEC1A /* Prime Number */,
+				DAB778521CD9A85A00BBEC1A /* Prime NumberTests */,
+				DAB7785D1CD9A85A00BBEC1A /* Prime NumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB7783A1CD9A85900BBEC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB7784D1CD9A85A00BBEC1A /* LaunchScreen.storyboard in Resources */,
+				DAB7784A1CD9A85900BBEC1A /* Assets.xcassets in Resources */,
+				DAB778451CD9A85900BBEC1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB778511CD9A85A00BBEC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7785C1CD9A85A00BBEC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB778381CD9A85900BBEC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB778481CD9A85900BBEC1A /* Prime_Number.xcdatamodeld in Sources */,
+				DAB778421CD9A85900BBEC1A /* ViewController.swift in Sources */,
+				DAB778401CD9A85900BBEC1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7784F1CD9A85A00BBEC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB778581CD9A85A00BBEC1A /* Prime_NumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7785A1CD9A85A00BBEC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB778631CD9A85A00BBEC1A /* Prime_NumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB778551CD9A85A00BBEC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB7783B1CD9A85900BBEC1A /* Prime Number */;
+			targetProxy = DAB778541CD9A85A00BBEC1A /* PBXContainerItemProxy */;
+		};
+		DAB778601CD9A85A00BBEC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB7783B1CD9A85900BBEC1A /* Prime Number */;
+			targetProxy = DAB7785F1CD9A85A00BBEC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB778431CD9A85900BBEC1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB778441CD9A85900BBEC1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB7784B1CD9A85A00BBEC1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB7784C1CD9A85A00BBEC1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB778651CD9A85A00BBEC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB778661CD9A85A00BBEC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB778681CD9A85A00BBEC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prime Number/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EclipseVision.Prime-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB778691CD9A85A00BBEC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prime Number/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EclipseVision.Prime-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB7786B1CD9A85A00BBEC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Prime NumberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EclipseVision.Prime-NumberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prime Number.app/Prime Number";
+			};
+			name = Debug;
+		};
+		DAB7786C1CD9A85A00BBEC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Prime NumberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EclipseVision.Prime-NumberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prime Number.app/Prime Number";
+			};
+			name = Release;
+		};
+		DAB7786E1CD9A85A00BBEC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Prime NumberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EclipseVision.Prime-NumberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Prime Number";
+			};
+			name = Debug;
+		};
+		DAB7786F1CD9A85A00BBEC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Prime NumberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EclipseVision.Prime-NumberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Prime Number";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB778371CD9A85900BBEC1A /* Build configuration list for PBXProject "Prime Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB778651CD9A85A00BBEC1A /* Debug */,
+				DAB778661CD9A85A00BBEC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB778671CD9A85A00BBEC1A /* Build configuration list for PBXNativeTarget "Prime Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB778681CD9A85A00BBEC1A /* Debug */,
+				DAB778691CD9A85A00BBEC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB7786A1CD9A85A00BBEC1A /* Build configuration list for PBXNativeTarget "Prime NumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB7786B1CD9A85A00BBEC1A /* Debug */,
+				DAB7786C1CD9A85A00BBEC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB7786D1CD9A85A00BBEC1A /* Build configuration list for PBXNativeTarget "Prime NumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB7786E1CD9A85A00BBEC1A /* Debug */,
+				DAB7786F1CD9A85A00BBEC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAB778461CD9A85900BBEC1A /* Prime_Number.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAB778471CD9A85900BBEC1A /* Prime_Number.xcdatamodel */,
+			);
+			currentVersion = DAB778471CD9A85900BBEC1A /* Prime_Number.xcdatamodel */;
+			path = Prime_Number.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAB778341CD9A85900BBEC1A /* Project object */;
+}

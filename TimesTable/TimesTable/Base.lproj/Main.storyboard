@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimesTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R7b-tv-qjh">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="mWZ-Tu-rYG"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Multiplication Table" id="bjj-eT-ffE"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPA-5t-lpT">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ob7-8G-LDE"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TCP-oj-yrK"/>
+                                    <barButtonItem style="plain" id="jbd-LQ-NYN">
+                                        <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.050000000000000003" minValue="0.050000000000000003" maxValue="1" id="E6b-3M-WjH">
+                                            <rect key="frame" x="205" y="6.5" width="190" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="changeTableSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="jiA-9B-mQm"/>
+                                            </connections>
+                                        </slider>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="joa-n9-aFB"/>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NKx-By-dBl">
+                                <rect key="frame" x="20" y="73" width="560" height="475"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="WZG-Qg-l8K">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WZG-Qg-l8K" id="bra-gY-Cmh">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Kak-KA-zLx"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OV8-y5-GMR"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="UPA-5t-lpT" secondAttribute="trailing" constant="-20" id="2eZ-kx-6ro"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UPA-5t-lpT" secondAttribute="bottom" id="4LL-fp-QUN"/>
+                            <constraint firstItem="R7b-tv-qjh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="N56-4M-9vo"/>
+                            <constraint firstItem="NKx-By-dBl" firstAttribute="centerX" secondItem="UPA-5t-lpT" secondAttribute="centerX" id="bLB-bw-DRD"/>
+                            <constraint firstItem="NKx-By-dBl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gLP-dg-joY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R7b-tv-qjh" secondAttribute="trailing" constant="-20" id="kCx-TE-rI9"/>
+                            <constraint firstItem="UPA-5t-lpT" firstAttribute="top" secondItem="NKx-By-dBl" secondAttribute="bottom" constant="8" id="mcc-od-fHH"/>
+                            <constraint firstItem="R7b-tv-qjh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="oDk-Cc-G6v"/>
+                            <constraint firstItem="NKx-By-dBl" firstAttribute="top" secondItem="R7b-tv-qjh" secondAttribute="bottom" constant="9" id="tFr-tt-h7V"/>
+                            <constraint firstItem="UPA-5t-lpT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="wzt-Mr-OrU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Table" destination="NKx-By-dBl" id="HJh-8X-JL1"/>
+                        <outlet property="changeTableSliderValue" destination="E6b-3M-WjH" id="xPJ-Zk-zjW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="399"/>
+        </scene>
+    </scenes>
+</document>
