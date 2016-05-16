@@ -1,0 +1,37 @@
+/*
+Dustin Harle
+2014-08-22
+Project Euler
+Even Fibonacci numbers
+By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
+*/
+
+import Cocoa
+
+var OldNumber = 1
+var NewNumber = 2
+var BigNumber = 0
+var CheckIfEven = 0
+var AddArray: [Int] = [2]
+var AllAdded = 0
+
+print(BigNumber)
+print(OldNumber)
+print(NewNumber)
+
+while BigNumber < 4_000_000 {
+    BigNumber = OldNumber + NewNumber
+    OldNumber = NewNumber
+    NewNumber = BigNumber
+    print(BigNumber)
+    CheckIfEven = (BigNumber % 2)
+    if (CheckIfEven == 0) {
+        AddArray += [BigNumber]
+    }
+}
+
+for LittleNumber in AddArray {
+    AllAdded += LittleNumber
+}
+
+print(AllAdded)

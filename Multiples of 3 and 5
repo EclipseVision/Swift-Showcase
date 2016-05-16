@@ -1,0 +1,34 @@
+/*  Dustin Harle
+    2014-08-22
+    Project Euler
+    Multiples of 3 and 5
+    Find the sum of all the multiples of 3 or 5 below 1000.
+*/
+
+import Cocoa
+
+
+
+var Numbers: [Int] = []
+var SUM = Int()
+
+for index in 1...999 {
+    var NumberFive = (index % 5)
+    var NumberThree = (index % 3)
+    if (NumberFive == 0) {
+        Numbers += [index]
+    }
+    if (NumberFive == NumberThree) {
+
+    } else {
+        if (NumberThree == 0) {
+            Numbers += [index]
+        }
+    }
+}
+
+for LittleNumber in Numbers {
+    SUM += LittleNumber
+}
+
+print("the sum of every 3 and 5 under 1000 is \(SUM)")
